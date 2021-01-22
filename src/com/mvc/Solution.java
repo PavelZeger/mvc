@@ -8,7 +8,7 @@ import com.mvc.view.UsersView;
 
 public class Solution {
     public static void main(String[] args) {
-        //Model com.javarush.com.javarush.model = new FakeModel();
+        
         Model model = new MainModel();
         UsersView usersView = new UsersView();
         EditUserView editUserView = new EditUserView();
